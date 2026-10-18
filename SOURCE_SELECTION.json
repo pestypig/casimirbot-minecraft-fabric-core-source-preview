@@ -1,0 +1,968 @@
+{
+  "schema": "casimirbot.minecraft_java_source_cohort.v1",
+  "status": "private-review-only",
+  "cohort": "fabric-core",
+  "sourceCommit": "44fcc3793d041228c565edcc9d79e13f19aa541e",
+  "files": [
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionCustodyA1EvidenceWriter.java",
+      "sha256": "99fc4c88c1a5ff55f909c638a7070838ca6451d22401b20d4487ff669b2b598b",
+      "bytes": 12188
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionFeasibilityGameTests.java",
+      "sha256": "19ddd17c6f61d2d1bba7b92084b2ffb057acd77bb664c3fec2174d78cf9a4dfa",
+      "bytes": 24419
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionFollowGameTests.java",
+      "sha256": "40019cdca17bbe27ed8a3678e5e3156e838d40d646c3d2aa24b16ec21e573bc9",
+      "bytes": 26701
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionInventoryCustodyGameTests.java",
+      "sha256": "146cf5c13bae4f091e57affcc3079fb07b4d6a96e9059e18f0272fe0715df3fe",
+      "bytes": 15120
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionMiningA1EvidenceWriter.java",
+      "sha256": "6a5483bb0ec036fb9eff96136dbea7ff0d2c7cd18fa489b918b74215fe1c4197",
+      "bytes": 10133
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionPresenceA1EvidenceWriter.java",
+      "sha256": "e48b41a7ed57555342620d18f6ff091d556a90cb8c7cb88b10fe916117534539",
+      "bytes": 11740
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionPresenceGameTests.java",
+      "sha256": "e44295c7227cc6489ce6bba40a49bc9ef1326a62426abac698a1153e66ba2dcf",
+      "bytes": 10472
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/CompanionSurvivalMiningGameTests.java",
+      "sha256": "3dfdebda074dc80c878c0c9bd558a9366974eabf92731f9e7a91dbb955ff190e",
+      "bytes": 27114
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/gametest/java/com/casimirbot/helixcompanion/spike/gametest/RealClientMiningOracleGameTest.java",
+      "sha256": "e6f924f9b1dc538631926fda830ea18f3716b8d7a1b8101756788aa231cab147",
+      "bytes": 6984
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/BoundedPacketSinkConnection.java",
+      "sha256": "34ec1299a646d3ab72cd2902741a427a57a21eb658dcd28cf991fbb878f45549",
+      "bytes": 1496
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/CompanionFollowController.java",
+      "sha256": "96d277687e90f952882e5b2f8a88813483ddd394f82b32a8e240d983a4e90c20",
+      "bytes": 19867
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/CompanionInventoryCustody.java",
+      "sha256": "9c10850672f51dc0df87ec5859337fe3d093b717dbabf49e0f75f3d8f619603e",
+      "bytes": 29605
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/CompanionMiningSettlement.java",
+      "sha256": "773fbfafada0afd41d6b5cc31216190fb1bce951b3c39cde7f9fb2e6438f0897",
+      "bytes": 5882
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/CompanionPresenceRuntime.java",
+      "sha256": "f8934f2f78db689342e8f58cdcfaaaa784eb0b3071cbbe3b010dfb0402ba228a",
+      "bytes": 12355
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/CustomEntityMiningProbe.java",
+      "sha256": "83e7015da9d7888545b92c74e63cc602b41915b776b1249335d9608965092d65",
+      "bytes": 1408
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/HelixCompanionSpikeMod.java",
+      "sha256": "899656ac0451131f968c10194770544cb98dac2d95cd1b0a76a05e58b000a199",
+      "bytes": 1490
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/MiningEventProbe.java",
+      "sha256": "3d283bcea22aea8e041f18a9688c278fb8e15aec5569f83e2de1e54ec3347653",
+      "bytes": 2663
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/PlayerSemanticMiningProbe.java",
+      "sha256": "a5742ab86ec7b2b238e51733dcdc181c1a4dbb2cd3fd2f84a85208d835d63fdc",
+      "bytes": 15111
+    },
+    {
+      "path": "minecraft/helix-fabric-companion-spike/src/main/java/com/casimirbot/helixcompanion/spike/SpikeCompanionEntity.java",
+      "sha256": "4cb0cc38eb0c2158f675008559d81fc10ed9b6d88fdc70cceb5a8e541cc76f0d",
+      "bytes": 1227
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/gametest/java/com/casimirbot/helixplayer/fabric/gametest/CombatArenaGameTests.java",
+      "sha256": "40e4744b3b671ef981bb4f5d34d31f10f6d525a2746d48d8a475ef306bb58516",
+      "bytes": 9366
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/BaritoneFacade.java",
+      "sha256": "d11fe78442a034c9df653c8e982721d2f8f90a354bd903df8decf0a9a904754a",
+      "bytes": 13720
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ClientThreadCall.java",
+      "sha256": "5f1ef969cea9c1dfd51120e79da6a9aa0dab382545581cd6541be60b0ff7a20f",
+      "bytes": 1061
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ConcurrentReactiveScheduler.java",
+      "sha256": "51913908d7a0d42335c4f94f21ee7f53215bc5a22929086d46e136da7270bffe",
+      "bytes": 63149
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/EnvironmentCapacityTelemetry.java",
+      "sha256": "e4a493195448f4b7a7c6b82ff7d0123ba232934ffa58334a750fd0e62f733cb6",
+      "bytes": 10949
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/EnvironmentMonotonicClock.java",
+      "sha256": "dc6ebe785f235519397962ce6bf5eec889de4ab8222cd0ef9154c6eb5bc554e5",
+      "bytes": 1037
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/FluidSequenceEngine.java",
+      "sha256": "02b9a57d130a44c9629b9254b08ee6b55422013a464765b89034f89b13dd5227",
+      "bytes": 55363
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/HelixFabricPlayerAgentClient.java",
+      "sha256": "3692a0e38447566fdc83a3847b13b4d4efccfafe9ee6ecb2c85d93c28bf53ebd",
+      "bytes": 23976
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/HelixParticleObservationRegistry.java",
+      "sha256": "a525396705f66dab3f9fc5201b365c31cdaf292125287b9f5b46f16e4f0f5ae5",
+      "bytes": 1025
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/InstalledDesktopServiceEndpointResolver.java",
+      "sha256": "683e0a724697cb5ee49e935b6398eff1000581eca2df597295e86b32e63a828f",
+      "bytes": 5663
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/InventoryCountObservation.java",
+      "sha256": "d6940ae9d28cbe3c698159970682a3f272a72fd90c1368aaf7f795d15aff62c9",
+      "bytes": 1344
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/LocomotionSafetyEnvelope.java",
+      "sha256": "3a8f73b4afe6ee9210d2fb254aba99717ecadf51304e9ea5f1693438c1980881",
+      "bytes": 3164
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ManualInputLatch.java",
+      "sha256": "5fcc8035068eccdd85ca96d47e8a5f2a82b7aa23e4b6063ecc19994a5d75e447",
+      "bytes": 2710
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/MinecraftCombatGuardian.java",
+      "sha256": "990361dca07350c76ffa4b87e9843a2acf94f467ed96ecd64510c80aea99c358",
+      "bytes": 26259
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/MinecraftViabilityGuardian.java",
+      "sha256": "b420bf2b446a08dc80adc2bbcbe12a593f898b5e4cabe02f91bed902099fb280",
+      "bytes": 15564
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/MiningTargetAffordance.java",
+      "sha256": "d7b626587e1a05fdd75e64aae8146dbc2a1dc03c5ffdef0859a2172858d107a8",
+      "bytes": 5333
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/NativeFabricControlBridge.java",
+      "sha256": "58323292a8411d61b021e448d55641c098b66eeb26854782eae1c7f7168007c1",
+      "bytes": 100846
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/NativeFabricInventoryControls.java",
+      "sha256": "feff2e66f0fbb6439c562fef5f0df3132eae8ab19322ffc6f060b239e2f27c10",
+      "bytes": 1578
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/NativeFabricWorkflowEngine.java",
+      "sha256": "fed98b7f105965eb42d5dbbd971b4cbad0ead479326aca98c442d46b8a4d0dba",
+      "bytes": 118188
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionClientCommands.java",
+      "sha256": "500290afd008286c250a43de653841adfcfff7a410cd7150e68f85c7f0610a39",
+      "bytes": 11494
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionConfig.java",
+      "sha256": "f6f671fbd2bc253b280ce4f4ce2ed79b9c1f2402098464cf5b881b65f2d2d738",
+      "bytes": 3197
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionConfigLoader.java",
+      "sha256": "7023e1200e1cebe04e377f4380d42c829cbdf7b0d56fb4954b4c230ac66151c1",
+      "bytes": 6176
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionController.java",
+      "sha256": "c2a56bcf18f77686106016e0726ff578bd1598b7008c0930355bde5cd58583da",
+      "bytes": 69070
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionDeliveryOutbox.java",
+      "sha256": "901d3152307ec0ed20a5f09dd095b5771fa4f6db10d411099bb43a636d9f7a09",
+      "bytes": 11708
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionDiagnosticInbox.java",
+      "sha256": "bfc967943429de5113a87c27ff8a11d926c6c5e8b2b5578cae8b80c0c671d5a5",
+      "bytes": 50299
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionHttpClient.java",
+      "sha256": "d4ee996f3b2df2fe578c3ebf823b4667237358792761705dce85db5358019b42",
+      "bytes": 5487
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionLocalStatusWriter.java",
+      "sha256": "74840f6034b50ec251239c479115cc5b7180b3a58ba551af4b635a6d64402115",
+      "bytes": 6325
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionPairingInbox.java",
+      "sha256": "26a7fc7c4697b848c71b207e3cdf8c9f638566486ab490731782e36eddb93be5",
+      "bytes": 3772
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionRuntime.java",
+      "sha256": "40ff28553e2c539f4e2cb3b7664c3e29fe2ae23ebca13f6f2c9c35dc5c37d8b0",
+      "bytes": 123467
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerActionWorkflow.java",
+      "sha256": "da88785a9eced441c20931420edf4e1e9ceea57d9f33b617733be899d719b112",
+      "bytes": 15014
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerAutoJoinInbox.java",
+      "sha256": "84ae067b909b72ff716a7e6787c8c5be51d8792150530346378ab0a311073e9f",
+      "bytes": 3978
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerInteractionClient.java",
+      "sha256": "16458e30e1974be9705360c3971253d55f912a3deefce7ea5af92ec5f4759333",
+      "bytes": 7348
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerInteractionConfig.java",
+      "sha256": "30c4584c7a5a997cb8ac08f7df3f69e2551d57aa686f7268d1b3974fb2224015",
+      "bytes": 2258
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PlayerSensorFrame.java",
+      "sha256": "f7548ba267dce78fef44363b9bbcc8d8ccd377380800727bc18df8bfd0236a59",
+      "bytes": 3937
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/PredictiveCameraTracker.java",
+      "sha256": "24813140eeb05c25af8984a98ab5deadee818dfbe7b056814645f888cab97f95",
+      "bytes": 6048
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ReactivePlayerConditionEvaluator.java",
+      "sha256": "b9763d34f52a38f217a7a4141da0f67aead1686f4500cbfc8ab14e4652667b11",
+      "bytes": 3658
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/RealtimeTexturePackDebugRenderState.java",
+      "sha256": "89f0664dc46d227d72bec38f7c727f30a7fc94d48979f338874fa1ceadf82518",
+      "bytes": 13038
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/RealtimeTexturePackNativeBlockIdentityMatcher.java",
+      "sha256": "62be9ba0cdf26ced74014237375612af75c63e6b668a46b550d664f1e69d2920",
+      "bytes": 3965
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ResidentEffectMeasurements.java",
+      "sha256": "6439ab6c0eb088e0bcb78c3841e9c57bf7ab85faff38550623c3eef1bd37227d",
+      "bytes": 4455
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ResidentInventoryObservation.java",
+      "sha256": "980161d84045992faad3d9d385e3b2f81463a129346662425663cdafcfd4851f",
+      "bytes": 1380
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ResidentMutationBudget.java",
+      "sha256": "e897579d21011a1e881b38f4d7910f5c8d359a0270f66a14be223da8cad7c640",
+      "bytes": 4499
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/ShortHorizonTrajectoryPredictor.java",
+      "sha256": "b52a0983f9a3b0a2ba10d4c8ee75e86923bdf0fdae113ab8a81afee81a669d8c",
+      "bytes": 6318
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/TemporalCompilationContent.java",
+      "sha256": "28aaa8c847a090b9fe0c3c83af3ba082780a0c122d2be25fcbcfbfa0a760fb34",
+      "bytes": 2687
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/TemporalDeliveryLane.java",
+      "sha256": "e1a7e5a4e3e34d675e9c1bc05b4962e99bbd9e6adf5d959d0d7a922574138b59",
+      "bytes": 1137
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/TemporalPlanClockBinding.java",
+      "sha256": "372855b8346e3c120e18f3b25af1cecbfc49c65e0e745046f694110a2ac068f4",
+      "bytes": 2574
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/TemporalPlanDeliveryPreflight.java",
+      "sha256": "7db827ce59ec740206c16609716ee4166de8710d801ccd5a48997579687807d7",
+      "bytes": 6454
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/TemporalPlanHashContent.java",
+      "sha256": "ce052bc4e0a7412e308dcb6ae8d622be403346a735c5d94b5e35b1a46a6dc7e2",
+      "bytes": 1731
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/TemporalPlanWindow.java",
+      "sha256": "81c133c538c65f7fad2b48c6bc1037e460b6b43d8afd56756c26c24fe92ad534",
+      "bytes": 5072
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/mixin/KeyboardHandlerMixin.java",
+      "sha256": "4984504b8ff31f4bed111fd8ed09c352833a6285dddce121453bd0020a63e6a2",
+      "bytes": 3388
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/mixin/MouseHandlerMixin.java",
+      "sha256": "b574365583870cb7cee3e0125827374bbfcb30eb59cfa092ace3e53e89cc2aad",
+      "bytes": 718
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/mixin/ParticleAccessor.java",
+      "sha256": "f99caf3e2aa1f9db4e180a9e53d97e0c138d4fca9a2dd17dfb5a0f016a61431d",
+      "bytes": 517
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/mixin/ParticleEngineAccessor.java",
+      "sha256": "19461e4a01cc7325a59a74237948b3cf56865a15d10948c624f639ecbe04c07e",
+      "bytes": 512
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/main/java/com/casimirbot/helixplayer/fabric/mixin/ParticleEngineMixin.java",
+      "sha256": "8c002387390f3e811c257263fa37674dc64707c553ebd8853465597f05c5139b",
+      "bytes": 1215
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/BaritoneFacadeTest.java",
+      "sha256": "04d1566bbac0582026754c1b6b5121eacf9db6b0fda76d553214229e8fc1b7f6",
+      "bytes": 9662
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ClientThreadCallTest.java",
+      "sha256": "e7acf99ffaaca40b76385b660f3420a44916e298bd6ddfdfb73959589a2b118d",
+      "bytes": 2171
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ConcurrentReactiveSchedulerTest.java",
+      "sha256": "0b404d225159acc4c31a161b558716dcfeb75f8230ab8ac47d09710ac4aaea2f",
+      "bytes": 50491
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/CraftResultBudgetTest.java",
+      "sha256": "acc72d9006255b51ba532968bfff965cf0ce6290e036ec228f72d6be98f701eb",
+      "bytes": 1039
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/EnvironmentCapacityTelemetryTest.java",
+      "sha256": "9238e0ae0a15081834093d6a4a8d0a209d0066d75215c8e2a550b1b8bf816de8",
+      "bytes": 10856
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/EnvironmentMonotonicClockTest.java",
+      "sha256": "00f578da8167fbe2af90a53d3820a3b0c6af9841799d72a41693e45a5bc3412f",
+      "bytes": 1338
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/FluidSequenceEngineTest.java",
+      "sha256": "d1fb8960dcff86a86c52c1db57e8873bdb5a2d92c5f498093185ae4d98011ad2",
+      "bytes": 85315
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/InstalledDesktopServiceEndpointResolverTest.java",
+      "sha256": "091a0f31444648202fe643b24bb793353013d7c7f621ff83febd497bbcb0d015",
+      "bytes": 3194
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/InventoryCountObservationTest.java",
+      "sha256": "3e2745bd4aa7302205a6bd594570776b70122f4ec1a91753039e0cf768096181",
+      "bytes": 1616
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/LocomotionSafetyEnvelopeTest.java",
+      "sha256": "5164033ca79a1d6cbb54d3ed12d35edc12d0baa5a543e4628cd1b117d88f38fc",
+      "bytes": 3900
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ManualInputLatchTest.java",
+      "sha256": "12fabced53815cbe419b8b25ae72baed7272b90d7da99ae418f4928ebf29d65d",
+      "bytes": 4642
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/MinecraftCombatGuardianTest.java",
+      "sha256": "f8387c222161bc2bf301e5cdb98479d6038e5c7ab414e75bc1ba31f59c10612a",
+      "bytes": 15958
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/MinecraftViabilityGuardianTest.java",
+      "sha256": "bab4e0a6b99644711ae11fedca98aab4109a15c4d071eba3adca966d246b558d",
+      "bytes": 10730
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/MiningTargetAffordanceTest.java",
+      "sha256": "285e62fabea9f7506f877bf078f52c8c622968f072911238a9b70fbc2b87b0b2",
+      "bytes": 3663
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/NativeFabricNavigationStepTest.java",
+      "sha256": "5c889b87c52132bc16b0c58638edcdcb4c3d2bfd0ab0fcc0224e84b74db2e702",
+      "bytes": 1689
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/NativeFabricWorkflowEngineMiningGeometryTest.java",
+      "sha256": "99edf11a45e8e79609d00f0e366f81fb1410ea90063a154136c85e877097a09c",
+      "bytes": 2397
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/NativeFabricWorkflowEnginePlacementGeometryTest.java",
+      "sha256": "5520b8bfcbb17dd1891259fd8908ce31892579a0fbc8b46e5d4bf6718a0294f2",
+      "bytes": 2506
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/NavigationTravelBudgetTest.java",
+      "sha256": "5112302c037162be91dd45b5b87b59cc85fb3e0d9c013afa8a7602f3978dc64a",
+      "bytes": 1362
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionControllerTest.java",
+      "sha256": "dafeb583650648ef15e9a226c9f35d8fa6479c255650d6dcfcd3ec2c51c2d188",
+      "bytes": 55251
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionDeliveryOutboxTest.java",
+      "sha256": "0bedbf8a6c530c200a416b71fcdca51c641cd1d3decb6dafb9707491ff2959d4",
+      "bytes": 17689
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionDiagnosticInboxTest.java",
+      "sha256": "766bf3d2fd7bde76badeadd2aa7c70f04450d8381fc41b679e31884119d3230e",
+      "bytes": 43265
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionHttpClientFaultTest.java",
+      "sha256": "756ca19ad51dda495b056878bd9475f102add67ac745220434f11c54b39e0146",
+      "bytes": 9624
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionLocalStatusWriterTest.java",
+      "sha256": "d5ff5568242eeebf1ba8b699bf7a264dbc0881e66664ee406956554462652e29",
+      "bytes": 2899
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionPairingInboxTest.java",
+      "sha256": "525f1ee0899a318b92d07ed41d178b49095e0faeb8c92e5320664441fd05f75b",
+      "bytes": 3021
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionRestartTransportTest.java",
+      "sha256": "3460fe6601311b934d5c033a08259aa56ba6e14a74d4950ef457ec95ce85e970",
+      "bytes": 3614
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionRuntimeLifecycleTest.java",
+      "sha256": "0c06848d5168e742808a055d4c32a8310c96b81e897a402c07728ccdd2f45cf7",
+      "bytes": 19920
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerActionRuntimeTransportTest.java",
+      "sha256": "50ddd4b0894d44109e11d44c2cfc7a3ad145a7ae4ccd44333808b4fcaf62df46",
+      "bytes": 66800
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerAutoJoinInboxTest.java",
+      "sha256": "f6e3cb6631cc7d44c12e27ab1c98a7155a0a79f0ec3bad0e84b4d3def13183ee",
+      "bytes": 2985
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PlayerSensorFrameTest.java",
+      "sha256": "9fb229bca98ecbb876f3ac18f98634449b27e22c8a1a80485111603b3b0dd21a",
+      "bytes": 1822
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/PredictiveCameraTrackerTest.java",
+      "sha256": "4fe44cda9af90a584f58eb6e1f95870167dc57586be9e9bd0c15aa7238121344",
+      "bytes": 3337
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ProjectileThreatForecasterTest.java",
+      "sha256": "c012855fb022bd668e947e661c476ae86c39b0c3b77a6e97811428d219f4c208",
+      "bytes": 4233
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ReactivePlayerConditionEvaluatorTest.java",
+      "sha256": "e4459e33d738811404d9eb5bb56ece2f38c740d7dcbe2563fe1e2e5f6bd6fb5a",
+      "bytes": 2771
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/RealtimeTexturePackDebugRenderStateTest.java",
+      "sha256": "34540b781de72d38d1ef796aec27e42486db7e0d211df9db555ba516cee2d12d",
+      "bytes": 8058
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/RealtimeTexturePackNativeBlockIdentityMatcherTest.java",
+      "sha256": "b01751620fd17389df56522f5ee959a64202acd30593655733801c642f204570",
+      "bytes": 1891
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ResidentEffectMeasurementsTest.java",
+      "sha256": "143b6d663b60a396245a12022a6f37ab579d4d87538a366bc20aee644320743f",
+      "bytes": 4766
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ResidentInventoryObservationTest.java",
+      "sha256": "99076291adfd7a1f898b4bdf49ce4d0e2994bc5bdd40d2f52d04276ce4ce2bb8",
+      "bytes": 1250
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ResidentMutationBudgetTest.java",
+      "sha256": "1cb4d5936177b49a61d8725b29efb1783106b8e4e26cf3610a7741b055f38cd7",
+      "bytes": 2423
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/ShortHorizonTrajectoryPredictorTest.java",
+      "sha256": "5c2357c9a0439764348b1dec737a78891867565413cfff697e61fbf2cf4aa1e9",
+      "bytes": 2285
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/TemporalCompilationContentTest.java",
+      "sha256": "a6706c63d5acf1e147481739058bdaf3372bdc1819c36604be2d564fff507876",
+      "bytes": 2175
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/TemporalDeliveryLaneTest.java",
+      "sha256": "c7dda61d5ecbbda54e670c2ea70aa60d1fdd6c486ae8d938bb501229460147ba",
+      "bytes": 1607
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/TemporalPlanClockBindingTest.java",
+      "sha256": "6daab667a9c1a1a3727731b33b6dcd7570c50a2629aca40a1b3a5612433b15cb",
+      "bytes": 2217
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/TemporalPlanDeliveryPreflightTest.java",
+      "sha256": "ef956e7835dbb7595ec89f64a584c14782d8674ba3767bb1d0ffdcb7c40fbab7",
+      "bytes": 9161
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/TemporalPlanHashCompatibilityTest.java",
+      "sha256": "0f81de3bef3253c325b8411301d75744b350e55d4c6be21ab921a6cc876cde54",
+      "bytes": 1433
+    },
+    {
+      "path": "minecraft/helix-fabric-player-agent/src/test/java/com/casimirbot/helixplayer/fabric/TemporalPlanWindowTest.java",
+      "sha256": "b1a74096767e8f5249a0c4a185ed133e53ad15be93b72cec94015c22d83b02ec",
+      "bytes": 3344
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/ClientPerceptionPayload.java",
+      "sha256": "52f925cf58fa524d33a2f7e44707c36f91f13df5658e3f14529af5b7290dd19d",
+      "bytes": 2277
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/DesktopServiceEndpointResolver.java",
+      "sha256": "9ce1574f1e7a999f3362df3cf7f73c4370ee685995b43abfe4859f101208ad56",
+      "bytes": 5663
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricClientPerceptionBridge.java",
+      "sha256": "94fd4deaa13851c90372f0507829f38898ab3c4b42125f4e11addfbf8ea1d5f0",
+      "bytes": 1540
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCombatArenaWatchdog.java",
+      "sha256": "39a05dbeaa0e212e9622411384a2d80f8b0c3ca04303e5787b3ceb097447f43c",
+      "bytes": 9222
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCommandAuthorityPolicy.java",
+      "sha256": "ca47d90758cb2beb742466a05ec6f65da536c39b8a281c613760bc095de605ff",
+      "bytes": 2956
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCommandCatalogBuilder.java",
+      "sha256": "017121514a8a464b11cfd8bed585ca475a1ec254e62ca26ca9acf28c09371fb3",
+      "bytes": 6548
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCommandClassifier.java",
+      "sha256": "f5e93d8e469395ccc15086bdb848d0aeab8434efdb2bbd4cbbab58e294c80aa3",
+      "bytes": 5538
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCommandConfig.java",
+      "sha256": "78a3639711fad097ee7b67008f928df0449329a16c403f38e869cd17a7970d10",
+      "bytes": 3297
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCommandExecutor.java",
+      "sha256": "36c4d5f65eab63d40338b6e2989da0c3abf33f024c1d527bc549306fcaee219b",
+      "bytes": 15559
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCommandHttpClient.java",
+      "sha256": "7ae472aa87719aee7b55086f8c364e8209ff74be71d2ffd22a6b89e0d8285944",
+      "bytes": 2775
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricCommandRuntime.java",
+      "sha256": "0e32d6a0757c5f4ffaa1aa3deadd7cd4249f7164c1bc81e9d2d27dbf7407c12a",
+      "bytes": 10418
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricConnectorCommands.java",
+      "sha256": "4022f95e8e01cfd9cf4cdae614e40a2a21fc8ea8fbb82e26b3c2b97168099e2d",
+      "bytes": 4117
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricConnectorRuntime.java",
+      "sha256": "6b52b848540070540b665e0c966fa9699867e6203c213e2f624fd0575c8967e1",
+      "bytes": 16746
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricFallRescueController.java",
+      "sha256": "105585260ad68e31c4afbfeac290d5607db9e064fad070d841cb8d3ea2740206",
+      "bytes": 16949
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricGameplayCommands.java",
+      "sha256": "4ae6a267e9e26957c50416b750ed11abddf77ce0183bbc361e434477aa9a9645",
+      "bytes": 24554
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricMechanicsStateReader.java",
+      "sha256": "98f5e3b4188f5b6bd7c02e826ead10314d969dfc9da9bd3d171e7a55ec57aff1",
+      "bytes": 2624
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricNavigationCollisionCapture.java",
+      "sha256": "53767070dddae328d367fd0e1367ad4a4e4c576caea18b3fb11d7a4feb8be4ed",
+      "bytes": 7139
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricNavigationCollisionFacts.java",
+      "sha256": "5f1eea0caa7a74dbe525642bd23b742a66947aa4a7efb831b0fa124bb311e34a",
+      "bytes": 3458
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricNavigationCollisionObservation.java",
+      "sha256": "6f93a36e3ebf30fc1938e51cbacf9842841b8694e94718602c8652294656b473",
+      "bytes": 1786
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricPerceptionSnapshot.java",
+      "sha256": "93b84627bec7f933004fa6ee6267bd0b3cf7627eded7539fde28f9622f6d4868",
+      "bytes": 33621
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricProbeExecutor.java",
+      "sha256": "1f16029621d142719e86d53b96315dc3b11b889099852ca18bdf95902a08f458",
+      "bytes": 47025
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricRegionCheckpointStore.java",
+      "sha256": "4bd0bc6d923ab2551c0d1aea030555c75f1dbd363022e6532f097cc94f47f172",
+      "bytes": 12205
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricSensorConfigLoader.java",
+      "sha256": "232616bc13166d1bafe8511dbf06d0b54ab953c9eaee3ffeea17a6799f9f3326",
+      "bytes": 16718
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricServerPairingInbox.java",
+      "sha256": "7da5bb4c27a0875158ca03d25042cb4c437477d2d1a28c2d0e8fc571e9df41eb",
+      "bytes": 5585
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricSnapshotBuilder.java",
+      "sha256": "c50d80febfcbdadca85a51fa1e3570db1a85f2dc7ba88d712abe52f7b2d480af",
+      "bytes": 17076
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricSpatialSurvey.java",
+      "sha256": "613aef33168e52d6cfbd47d6c578a60efe0af552953f56311ed9e6d9c35ebbfe",
+      "bytes": 45137
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/FabricTransportScheduler.java",
+      "sha256": "720976b498f9d72acd1b1183e547c54b7b660f2a8461c09e6334cff1352f7fde",
+      "bytes": 1408
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/HelixClientPerceptionNetworking.java",
+      "sha256": "de2c108fe1eeb7cc361bbbe042f9d20705dce11321d04400ccffd4d502519079",
+      "bytes": 1309
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/HelixFabricClientPerceptionMod.java",
+      "sha256": "9313edfb0d41e85269ed2ce914b84bbbec71c943d1032b6b9c4a5914161ede85",
+      "bytes": 2423
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/main/java/com/casimirbot/helixsensor/fabric/HelixFabricSensorMod.java",
+      "sha256": "0735d5dca292e9a3257b6283c8c353a4e7a7482743af06435c7c8be3224559d9",
+      "bytes": 15734
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/DesktopServiceEndpointResolverTest.java",
+      "sha256": "006659480e5f8207d55846b017703a85de2959e2dfc25b6ccd446db493dd7ed6",
+      "bytes": 2859
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricClientPerceptionBridgeTest.java",
+      "sha256": "bae6de5bf7a9700837c3f806facaec48af6ffa3dd3ab0552e8c1cda8bafb7943",
+      "bytes": 2765
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricCombatArenaWatchdogTest.java",
+      "sha256": "1a45facf8d218118ba558bfb599ba55f346148b48da8644d632ee14b99b405b0",
+      "bytes": 1941
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricCommandAuthorityPolicyTest.java",
+      "sha256": "d48393bf38ec73474270f78b8a331864a4578aba631bfd3dbe0dd1d516d0137e",
+      "bytes": 4669
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricCommandClassifierTest.java",
+      "sha256": "503dce9140fd187393bb9995da2c9ebd1f3d360334407a4b5b902d1d55e796a4",
+      "bytes": 7198
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricCommandConfigTest.java",
+      "sha256": "b49a2fc9c22549a461b02607d05d1590adc31bb6a4749825eab0254538488007",
+      "bytes": 2686
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricCommandRuntimeTest.java",
+      "sha256": "a027af78dfe8dfda7a442bd0317907def3cc46d8bf748deaf4d911e4f3226dee",
+      "bytes": 3699
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricConnectorManagementBoundaryTest.java",
+      "sha256": "a1d95ede845d2de5bd9bd22df52d082db439326be0533f828b78d9838127519e",
+      "bytes": 915
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricFallRescueControllerTest.java",
+      "sha256": "19f1bcb7fd9a527e2f35406665d626b4a58b9086ec95652318d715a9ac57a737",
+      "bytes": 4656
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricGameplayCommandsTest.java",
+      "sha256": "040d4d37f7f3d057eb8af1d961d21966c73553a54aec1d659866437442d032ba",
+      "bytes": 2689
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricManifestContractTest.java",
+      "sha256": "121dc1163bf0ef4be07ea2d68fe1d28d3b57795f0ea9fbcdf16ce0ca8a71b97a",
+      "bytes": 2758
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricMechanicsStateReaderTest.java",
+      "sha256": "1dc2166300b3dc0f02d873a29bd1120af16adbfe0e32fe092d393d77e19a8140",
+      "bytes": 932
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricNavigationCollisionCaptureTest.java",
+      "sha256": "6423fc1c8c7ac3f33bfcb2d6995eda0fd3488a107de4686d0fba75bd369586ed",
+      "bytes": 7909
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricNavigationCollisionFactsTest.java",
+      "sha256": "ebd5bd88251d1c3faf9b9bd9b85468181d277f3b0bef4066f67c5c5e8e92a750",
+      "bytes": 5167
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricNavigationCollisionObservationTest.java",
+      "sha256": "8cab86ac26897fa65003a18402e2cc5dddbaf41632d31b0b9a21ff536466ceed",
+      "bytes": 2101
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricProbeActorSelectionTest.java",
+      "sha256": "9c16a53ea054a80918f491701a50bd5e31ec465551f69c05879b18fd13c1c43e",
+      "bytes": 2137
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricProbeResultShapeTest.java",
+      "sha256": "b4094ac10d42c69fa034fca54ca2e00f9b4807923efcfa33c80285df82d17353",
+      "bytes": 3546
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricRegionCheckpointStoreTest.java",
+      "sha256": "ec0650268f9a8e0e106980634449a4eb650dd6161c73bf5a1ee1b0c1c117ee60",
+      "bytes": 1397
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricSensorConfigLoaderTest.java",
+      "sha256": "e5b73121cc2fe0274df5ef921d776303bbc70955739b9d91a1fd1f27581d5910",
+      "bytes": 3631
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricServerPairingInboxTest.java",
+      "sha256": "ab288306096186fa37a4eb765c1b9d759a48a394e109b74f7b5e1597699436f1",
+      "bytes": 4520
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricSpatialSurveyTest.java",
+      "sha256": "0318eda034037d80e6050f3e5e1358d6321a19526d9ffb8e5350c5c0e874d811",
+      "bytes": 9863
+    },
+    {
+      "path": "minecraft/helix-fabric-sensor/src/test/java/com/casimirbot/helixsensor/fabric/FabricTransportSchedulerTest.java",
+      "sha256": "8d77cda827dde62e995e3d043e2413d35eda3236356799dfd1988e2e5d5b9251",
+      "bytes": 1709
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/HelixHttpClient.java",
+      "sha256": "0a33876b8eaad6ba7e91547044ac4da5c87d395066c9b1a4bc17f44e619c3acf",
+      "bytes": 35120
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/HelixJson.java",
+      "sha256": "b66c0cd77e60630c942843697043c612a2a5f6183d33b638c5a64e9fcd0ade89",
+      "bytes": 9689
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/HelixSensorConfig.java",
+      "sha256": "9d2776f14c164d2494b33664d7a0e5e4f062d253d2efc350a184d7809d02238f",
+      "bytes": 3819
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/HelixSensorRuntimeStatus.java",
+      "sha256": "1b8ff831893bb0d50ed06559e7fc5912874b82482bd4e3742294730b32f2d12b",
+      "bytes": 5692
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/combat/ProjectileThreatForecaster.java",
+      "sha256": "7bd3042054f57571abc2d0a5b5099d8c3445b10c04cbeab7d51b09de9f15f407",
+      "bytes": 8333
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/command/CommandStatusFormatter.java",
+      "sha256": "74f22809ef283ff242221d5ef3c153976e493128d4d318e6fb5811fc05f9587f",
+      "bytes": 2968
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/manifest/EnvironmentSourceManifestFactory.java",
+      "sha256": "56ebf971491ed721c7e8b4d354b4f1b700e7fb727833609533602ad7a4bc1560",
+      "bytes": 5135
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/navigation/BoundedNavigationFrontier.java",
+      "sha256": "f7c3ba5df31f7d3258c0be5fb911435965513c4f46f3a6ea878567c6593541a1",
+      "bytes": 14645
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/pairing/ConnectorPairingClient.java",
+      "sha256": "7b5a94f08dc0180f4a1c142f7c2f1d1ec95adbd18a7c29b0c29e44f3b9eaed7f",
+      "bytes": 19799
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/probe/ProbeContractGuard.java",
+      "sha256": "5d12f0aa7ffa625072a2f567464fcfb779fe6776faeac32f7c5019e710e9e48c",
+      "bytes": 1327
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/probe/ProbeResultPublisher.java",
+      "sha256": "ce18fcdf6911195d49550d5c912595715e31824032ea0dcc15be0fb9a38ce8cb",
+      "bytes": 609
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/probe/ProbeSubmissionEnvelope.java",
+      "sha256": "be8ba17b1379308dfb025d7b34f0d1c5127aa68a05385b547210f418a8a3b87b",
+      "bytes": 1468
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/scope/SensorScope.java",
+      "sha256": "67af4536e8f6b71ab15b356d0209d34adc8495c67205a89f47db2ccf218b7db0",
+      "bytes": 779
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/scope/SensorScopePolicy.java",
+      "sha256": "d30d5c882e03c26c494e31d61ce8ff8a6be6f7e516c379def5c846f13d99bc51",
+      "bytes": 1404
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/snapshot/LocationSampleWorldEventBuilder.java",
+      "sha256": "5ae070820d1db42fc16af3c1bd708667de1ac11918d4e949cebf8dbd83e60c8f",
+      "bytes": 1874
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/snapshot/PayloadLimiter.java",
+      "sha256": "1c92168224159c7e8ab62b8f24733736272caf79b6e09e10e2e622306f1a0348",
+      "bytes": 2399
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/snapshot/SectionHasher.java",
+      "sha256": "9dc99a05cc0a07dc1b72ff58414409aa89675a8dd91aca4370c79af0a3ae5cb5",
+      "bytes": 1043
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/snapshot/SnapshotBurstController.java",
+      "sha256": "0263fbd5de3bf0971788b9888c09a25843afdbfc8b1cc43002f40678e112e45c",
+      "bytes": 1515
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/snapshot/SnapshotContractGuard.java",
+      "sha256": "a77fe80a9a74641029af73051c760c1015ec42ec446504c960bd6e9e8a72c6b7",
+      "bytes": 1701
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/main/java/com/casimirbot/helixsensor/snapshot/adapters/AffordanceSummaryAdapter.java",
+      "sha256": "d1a4643a95e8641ae2c68523b9597c769e060df05605193ecfe8baf47b8a74ed",
+      "bytes": 1260
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/test/java/com/casimirbot/helixsensor/HelixHttpClientSchedulingTest.java",
+      "sha256": "8a8fef6a447480fa1eb03249f4d2e204eec70527a06c993dada6a2b824cd0b1e",
+      "bytes": 1120
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/test/java/com/casimirbot/helixsensor/HelixJsonTest.java",
+      "sha256": "3abf558bfcf547430d7ac2947881eaccdcac0bfaaaa2870dde89ef7723ffd5ea",
+      "bytes": 1169
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/test/java/com/casimirbot/helixsensor/navigation/BoundedNavigationFrontierTest.java",
+      "sha256": "9ba19ea0ac511f6988d4cd583e16f410be50dbdd263f17da40d38ea0f56fbcca",
+      "bytes": 10386
+    },
+    {
+      "path": "minecraft/helix-minecraft-connector-core/src/test/java/com/casimirbot/helixsensor/pairing/ConnectorPairingClientTest.java",
+      "sha256": "da66cfe8902f15f7e2b0e523924d5014fe7fa918b51b614c0875edce937bfeb1",
+      "bytes": 13664
+    }
+  ]
+}
